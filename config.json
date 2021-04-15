@@ -1,0 +1,28 @@
+{
+    "url": " http://localhost:8706/tmf-api/testData/v4/",
+    "resourcesToTest": "TestDataInstance",
+    "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    },
+    "payloads": {
+        "TestDataSchema": {
+            "POST": {
+                "payload": {
+                    "description": "Sample test data schema",
+                    "testDataSchemaDefinition": {},
+                    "version": "1.2.3"
+                }
+            }
+        },
+        "TestDataInstance": {
+            "POST": {
+                "payload": {
+                    "description": "Input parameters for test case execution",
+                    "testDataInstanceDefinition": {},
+                    "version": "1.2.3"
+                }
+            }
+        }
+    }
+}

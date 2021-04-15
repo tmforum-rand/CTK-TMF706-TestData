@@ -1,0 +1,1 @@
+{"$schema": "http://json-schema.org/schema#", "type": "object", "properties": {"description": {"type": "string"}, "testDataSchemaDefinition": {"type": "object"}, "version": {"type": "string"}}, "required": ["description", "testDataSchemaDefinition", "version"]}
